@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/altura_item"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/margen_estandar"
+    android:layout_marginBottom="@dimen/margen_estandar">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:id="@+id/nombrePersonaje"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/miniatura" />
+
+    <TextView
+        android:id="@+id/especie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/genero"
+        android:layout_below="@+id/nombrePersonaje"
+        android:layout_alignLeft="@+id/nombrePersonaje"
+        android:layout_alignRight="@+id/nombrePersonaje"
+        android:text="Especie" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Genero"
+        android:id="@+id/genero"
+        android:layout_alignLeft="@+id/especie"
+        android:layout_alignRight="@+id/nombrePersonaje"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:layout_width="@dimen/ancho_miniatura"
+        android:layout_height="match_parent"
+        android:id="@+id/miniatura"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margen_estandar" />
+</RelativeLayout>

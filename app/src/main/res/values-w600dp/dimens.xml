@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ancho_miniatura">200dp</dimen>
+
+    <bool name="esTablet">true</bool>
+    <dimen name="fab_margin">48dp</dimen>
+    <dimen name="container_horizontal_margin">48dp</dimen>
+</resources>

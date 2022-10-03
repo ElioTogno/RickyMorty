@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">RickyMorty</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_master_detail_main_detail_host">
+        MasterDetailMainDetailHostActivity
+    </string>
+    <string name="title">Prueba</string>
+    <string name="element">ELemento Prueba</string>
+    <string name="title_masterdetailmain_list">Items</string>
+    <string name="title_masterdetailmain_detail">MasterDetailMain Detail</string>
+
+
+    <string name="btnAnterior">Pagina Anterior</string>
+    <string name="btnSiguiente">Pagina Siguiente</string>
+    <string name="contentDescription">Imagen</string>
+
+    <string name="Genero"> Genero: %1$s</string>
+    <string name="Origen"> Origen: %1$s</string>
+    <string name="UltimaUbicacion"> Ultima ubicacion:: %1$s</string>
+
+
+
+    <string name="Reintentar">
+        No se pudieron conseguir los datos.\nVerifique su conexion a internet y presione reintentar
+    </string>
+
+
+
+
+
+</resources>
